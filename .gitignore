@@ -1,0 +1,21 @@
+# environments
+.venv/
+venv/
+.env
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# editors and OS
+.DS_Store
+.idea/
+.vscode/
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+# raw downloads are re-created by the data scripts
+data/*
+!data/.gitkeep
