@@ -24,7 +24,14 @@ pip install -r requirements.txt
 <!-- series IDs, links, how to download, retrieval dates -->
 
 ## How to run
-<!-- commands and expected outputs -->
+<!-- other members add their commands here -->
+
+Hedge engine and baseline (Tanishk):
+```bash
+python -m src.hedge.interim_data     # builds data/processed/daily_prices.csv (interim, until the data pipeline lands)
+python -m src.hedge.run_baseline     # results/baseline_*.csv and figures/baseline_rolling_h.png
+pytest -q                            # includes the no-lookahead tests
+```
 
 ## Repository layout
 - `src/` Python code

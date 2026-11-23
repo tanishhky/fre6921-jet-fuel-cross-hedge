@@ -13,11 +13,11 @@ Owners follow the Task Distribution Matrix in the Initial Proposal. Tick a box o
 | Mon Dec 14 | Confidential peer evaluations (individual) | Each member |
 
 ## Tanishk Yadav: hedge model lead
-- [ ] Hedge-ratio engine in `src/`: OLS minimum-variance ratio, hedge effectiveness
-- [ ] Rolling out-of-sample framework with an explicit decision date on every data read (no lookahead)
-- [ ] Test in `tests/`: add future data, check past hedge ratios are unchanged
+- [x] Hedge-ratio engine in `src/`: OLS minimum-variance ratio, hedge effectiveness
+- [x] Rolling out-of-sample framework with an explicit decision date on every data read (no lookahead)
+- [x] Test in `tests/`: add future data, check past hedge ratios are unchanged
 - [ ] Hedge-effectiveness tables by horizon and window, with bootstrap confidence intervals
-- [ ] Baseline for 11/23: no hedge vs 1:1 vs minimum-variance on real data
+- [x] Baseline for 11/23: no hedge vs 1:1 vs minimum-variance on real data
 - [ ] Revised proposal: Problem Statement, Methodology, feedback table
 
 ## Tianze Xia: data and diagnostics lead
